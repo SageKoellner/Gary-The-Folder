@@ -1,6 +1,5 @@
 var num = 1;
 var x = 1;
-
 function Primer(num){
     if (num%2 == 0){
         continue;
@@ -16,3 +15,5 @@ function Primer(num){
 for (i = 0; i < 1000; i++) {
     Primer(num);
 }
+
+Primer(3)
